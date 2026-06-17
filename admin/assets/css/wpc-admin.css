@@ -1,0 +1,261 @@
+/**
+ * Woo PDF Catalog – Admin styles
+ *
+ * @package Woo_PDF_Catalog
+ * @since   1.0.0
+ */
+
+/* ── Wrapper ──────────────────────────────────────────────────────────────── */
+.wpc-settings-wrap {
+    max-width: 960px;
+}
+
+/* ── Section titles ───────────────────────────────────────────────────────── */
+.wpc-section-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #1e3a5f;
+    border-bottom: 2px solid #4a90d9;
+    padding-bottom: 6px;
+    margin-top: 32px !important;
+    margin-bottom: 4px !important;
+}
+
+.wpc-section-desc {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+/* ── Form table ───────────────────────────────────────────────────────────── */
+.wpc-table th {
+    width: 240px;
+    padding: 12px 10px;
+    vertical-align: top;
+}
+
+.wpc-table td {
+    padding: 10px 10px;
+}
+
+/* ── Field checkboxes grid ────────────────────────────────────────────────── */
+.wpc-checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px 16px;
+    margin-bottom: 8px;
+}
+
+.wpc-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fafafa;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.wpc-checkbox-label:hover {
+    background: #f0f6ff;
+    border-color: #4a90d9;
+}
+
+.wpc-checkbox-label input[type="checkbox"]:checked + * {
+    font-weight: 600;
+}
+
+/* ── Color inputs ─────────────────────────────────────────────────────────── */
+input[type="color"] {
+    width: 48px;
+    height: 34px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* ── Download section ─────────────────────────────────────────────────────── */
+.wpc-download-section {
+    margin-top: 40px;
+    padding: 28px 32px;
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5f9e 100%);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(30,58,95,.25);
+}
+
+.wpc-download-section h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.wpc-download-section p {
+    opacity: .85;
+    margin-bottom: 20px;
+}
+
+.wpc-download-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 10px;
+    background: #fff !important;
+    color: #1e3a5f !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 28px !important;
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.wpc-download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+}
+
+.wpc-download-btn.is-loading {
+    opacity: .7;
+    pointer-events: none;
+}
+
+.wpc-download-btn .dashicons {
+    font-size: 1.4em;
+    color: #4a90d9;
+}
+
+/* ── Select2 overrides ────────────────────────────────────────────────────── */
+.wpc-product-select + .select2-container {
+    max-width: 600px;
+}
+
+/* ── CSV Upload ──────────────────────────────────────────────────────────── */
+.wpc-csv-upload {
+    margin-top: 12px;
+    padding: 14px 18px;
+    background: #f7f9fc;
+    border: 1px dashed #b4c9e2;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.wpc-csv-upload-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wpc-csv-file-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid #c3c4c7;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    color: #50575e;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.wpc-csv-file-label:hover {
+    border-color: #4a90d9;
+    background: #f0f6ff;
+    box-shadow: 0 1px 4px rgba(74, 144, 217, .15);
+}
+
+.wpc-csv-file-label .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    color: #4a90d9;
+}
+
+.wpc-csv-file-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+.wpc-csv-upload-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 5px;
+}
+
+.wpc-csv-upload-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.wpc-csv-hint {
+    margin-top: 8px !important;
+    margin-bottom: 0 !important;
+    font-size: 12px !important;
+}
+
+/* ── CSV Feedback ────────────────────────────────────────────────────────── */
+.wpc-csv-feedback {
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.wpc-feedback-success {
+    background: #edf7ee;
+    border: 1px solid #a3d9a5;
+    color: #2e7d32;
+}
+
+.wpc-feedback-warning {
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    color: #f57f17;
+}
+
+.wpc-feedback-error {
+    background: #fdecea;
+    border: 1px solid #f5c6cb;
+    color: #c62828;
+}
+
+.wpc-csv-success .dashicons,
+.wpc-csv-warning .dashicons {
+    vertical-align: text-bottom;
+    margin-right: 2px;
+}
+
+.wpc-csv-success {
+    color: #2e7d32;
+}
+
+.wpc-csv-warning {
+    color: #e65100;
+}
+
+/* ── Spinner animation ───────────────────────────────────────────────────── */
+@keyframes wpc-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+.wpc-spin {
+    animation: wpc-spin 1s linear infinite;
+    display: inline-block;
+}
+

@@ -1,0 +1,254 @@
+# Translation of Woo PDF Catalog in Spanish (Spain)
+# Copyright (C) 2024 Ivan
+# This file is distributed under the same license as the Woo PDF Catalog plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo PDF Catalog 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/example/woo-pdf-catalog\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Ivan <ivan@example.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: woo-pdf-catalog\n"
+
+msgid "SKU / Reference"
+msgstr "SKU / Referencia"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Regular Price"
+msgstr "Precio regular"
+
+msgid "Sale Price"
+msgstr "Precio rebajado"
+
+msgid "Stock Status"
+msgstr "Estado de stock"
+
+msgid "Stock Quantity"
+msgstr "Cantidad en stock"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+msgid "Categories"
+msgstr "Categorías"
+
+msgid "Tags"
+msgstr "Etiquetas"
+
+msgid "Attributes"
+msgstr "Atributos"
+
+msgid "Custom Fields (meta)"
+msgstr "Campos personalizados (meta)"
+
+msgid "Short Description"
+msgstr "Descripción corta"
+
+msgid "Long Description"
+msgstr "Descripción larga"
+
+msgid "PDF Catalog"
+msgstr "Catálogo PDF"
+
+msgid "Insufficient permissions."
+msgstr "Permisos insuficientes."
+
+msgid "PDF Catalog settings saved."
+msgstr "Ajustes del catálogo PDF guardados."
+
+msgid "Searching\xe2\x80\xa6"
+msgstr "Buscando\xe2\x80\xa6"
+
+msgid "No products found."
+msgstr "No se encontraron productos."
+
+msgid "Generating PDF\xe2\x80\xa6"
+msgstr "Generando PDF\xe2\x80\xa6"
+
+msgid "Download PDF"
+msgstr "Descargar PDF"
+
+msgid "An error occurred. Please try again."
+msgstr "Se produjo un error. Por favor, inténtalo de nuevo."
+
+msgid "Product Fields"
+msgstr "Campos del producto"
+
+msgid "Choose which fields to include in the PDF. Title is always included."
+msgstr "Elige qué campos incluir en el PDF. El título siempre se incluye."
+
+msgid "Enabled Fields"
+msgstr "Campos habilitados"
+
+msgid "The product title is always included as the first element."
+msgstr "El título del producto siempre se incluye como primer elemento."
+
+msgid "Publication Status"
+msgstr "Estado de publicación"
+
+msgid "Define which products to include based on their publication status."
+msgstr "Define qué productos incluir según su estado de publicación."
+
+msgid "Include Products"
+msgstr "Incluir productos"
+
+msgid "Published products only"
+msgstr "Solo productos publicados"
+
+msgid "All products (including drafts, pending, private\xe2\x80\xa6)"
+msgstr "Todos los productos (borradores, pendientes, privados\xe2\x80\xa6)"
+
+msgid "Forced Products"
+msgstr "Productos forzados"
+
+msgid "These products will always be included regardless of other filters."
+msgstr "Estos productos siempre se incluirán independientemente de otros filtros."
+
+msgid "Search and select products that must always appear in the PDF."
+msgstr "Busca y selecciona los productos que siempre deben aparecer en el PDF."
+
+msgid "Excluded Products"
+msgstr "Productos excluidos"
+
+msgid "These products will never be included regardless of other filters."
+msgstr "Estos productos nunca se incluirán independientemente de otros filtros."
+
+msgid "Search and select products that must never appear in the PDF."
+msgstr "Busca y selecciona los productos que nunca deben aparecer en el PDF."
+
+msgid "PDF Appearance"
+msgstr "Apariencia del PDF"
+
+msgid "Customise colors, fonts, margins and page decorations."
+msgstr "Personaliza colores, fuentes, márgenes y decoraciones de página."
+
+msgid "Primary Color"
+msgstr "Color primario"
+
+msgid "Used for headings and section titles."
+msgstr "Usado para encabezados y títulos de sección."
+
+msgid "Accent Color"
+msgstr "Color de acento"
+
+msgid "Used for dividers and highlights."
+msgstr "Usado para separadores y destacados."
+
+msgid "Font Family"
+msgstr "Familia de fuente"
+
+msgid "Top Margin (mm)"
+msgstr "Margen superior (mm)"
+
+msgid "Side Margins (mm)"
+msgstr "Márgenes laterales (mm)"
+
+msgid "Show Header"
+msgstr "Mostrar cabecera"
+
+msgid "Show shop name in the page header"
+msgstr "Mostrar el nombre de la tienda en la cabecera"
+
+msgid "Show Footer"
+msgstr "Mostrar pie de página"
+
+msgid "Show page number in the footer"
+msgstr "Mostrar el número de página en el pie"
+
+msgid "File Options"
+msgstr "Opciones de archivo"
+
+msgid "Configure the output filename."
+msgstr "Configura el nombre del archivo de salida."
+
+msgid "PDF Filename"
+msgstr "Nombre del archivo PDF"
+
+msgid "Filename without extension."
+msgstr "Nombre de archivo sin extensión."
+
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+msgid "Download Preview"
+msgstr "Vista previa de descarga"
+
+msgid "Generate and download the PDF immediately using the current settings."
+msgstr "Genera y descarga el PDF inmediatamente con los ajustes actuales."
+
+msgid "Download PDF Catalog"
+msgstr "Descargar catálogo PDF"
+
+msgid "TCPDF not found!"
+msgstr "¡TCPDF no encontrado!"
+
+msgid "Please install TCPDF in: %s"
+msgstr "Por favor instala TCPDF en: %s"
+
+msgid "Download Product Catalog"
+msgstr "Descargar catálogo de productos"
+
+msgid "TCPDF library not found. Please check the vendor/tcpdf directory inside the Woo PDF Catalog plugin."
+msgstr "Librería TCPDF no encontrada. Comprueba el directorio vendor/tcpdf dentro del plugin Woo PDF Catalog."
+
+msgid "No products found with the current settings. The PDF could not be generated."
+msgstr "No se encontraron productos con los ajustes actuales. No se pudo generar el PDF."
+
+msgid "Product Catalog"
+msgstr "Catálogo de productos"
+
+msgid "Security check failed."
+msgstr "Verificación de seguridad fallida."
+
+msgid "You do not have permission to download the PDF catalog."
+msgstr "No tienes permiso para descargar el catálogo PDF."
+
+msgid "PDF Generation Error"
+msgstr "Error de generación de PDF"
+
+msgid "No Image"
+msgstr "Sin imagen"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Full Description"
+msgstr "Descripción completa"
+
+msgid "In Stock"
+msgstr "En stock"
+
+msgid "Out of Stock"
+msgstr "Agotado"
+
+msgid "On Backorder"
+msgstr "Bajo pedido"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Stock"
+msgstr "Stock"
+
+msgid "Qty"
+msgstr "Cantidad"
+
+msgid "Woo PDF Catalog requires %s to be installed and active."
+msgstr "Woo PDF Catalog requiere que %s esté instalado y activo."
+
+msgid "Woo PDF Catalog requires WooCommerce. Please install and activate WooCommerce first."
+msgstr "Woo PDF Catalog requiere WooCommerce. Por favor instala y activa WooCommerce primero."
+
+msgid "Plugin activation error"
+msgstr "Error de activación del plugin"

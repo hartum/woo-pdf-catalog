@@ -1,0 +1,84 @@
+/**
+ * Woo PDF Catalog – Frontend button styles
+ *
+ * @package Woo_PDF_Catalog
+ * @since   1.0.0
+ */
+
+/* ── Wrapper ──────────────────────────────────────────────────────────────── */
+.wpc-download-wrap {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+/* ── Button ───────────────────────────────────────────────────────────────── */
+.wpc-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: transform .18s cubic-bezier(.34,1.56,.64,1),
+                box-shadow .18s ease,
+                background .18s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.wpc-btn--download {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5f9e 100%);
+    color: #fff !important;
+    box-shadow: 0 4px 14px rgba(30,58,95,.35);
+}
+
+.wpc-btn--download:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(30,58,95,.45);
+    color: #fff !important;
+}
+
+.wpc-btn--download:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(30,58,95,.3);
+}
+
+/* ── Icon ─────────────────────────────────────────────────────────────────── */
+.wpc-btn__icon {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    animation: wpc-bounce-idle 2.4s ease-in-out infinite;
+}
+
+@keyframes wpc-bounce-idle {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(3px); }
+}
+
+/* ── Loading state ────────────────────────────────────────────────────────── */
+.wpc-btn--loading .wpc-btn__icon {
+    animation: wpc-spin .8s linear infinite;
+}
+
+@keyframes wpc-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ── Ripple effect on click ───────────────────────────────────────────────── */
+.wpc-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(255,255,255,.3) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.wpc-btn:active::after {
+    opacity: 1;
+}
